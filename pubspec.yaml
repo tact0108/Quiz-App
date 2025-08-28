@@ -48,6 +48,7 @@ dependencies:
       path: speech_to_text
       ref: main
   web_socket_channel: ^3.0.3
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -126,3 +127,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/android_icon.png
